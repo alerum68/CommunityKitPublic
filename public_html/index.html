@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>MedievaLands</title>
+  <meta name="description" content="A from-scratch recreation of The Shadow of Yserbius">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/theme.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="twelve columns" style="margin-top: 5%">
+        <center>
+          <img src="images/volcano.png"/>
+          <h1><b>MedievaLands</b></h1>
+          <p>A from-scratch recreation of The Shadow of Yserbius!</p>
+        </center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve column">
+        <h2>Welcome!</h2>
+        <p>This site is a dev blog centered around remaking The Shadow of Yserbius. I'm very close to a public release, and plan more projects in the future.</p>
+        <blockquote>
+          <p><strong>IMPORTANT!</strong> I don't have the rights to The Shadow of Yserbius. This is <strong>not</strong> an official release, just a closed-source hobby project.</p>
+        </blockquote>
+        <h2>Road Map</h2>
+        <ul>
+          <li>Feature Complete: Dungeon (January 1, 2019), Tavern (January 15, 2019).</li>
+          <li>Breaking bug fixes and assets expected complete February 15, 2019.</li>
+          <li>Additional polish and closed testing expected through mid-March 2019.</li>
+          <li>Public release expected mid-March 2019.</li>
+          <li>Hypercare and stabilization after launch expected to end May 2019.</li>
+        </ul>
+        <h2>Development Facts</h2>
+        <p>This recreation runs on an engine I wrote called "CommunityKit". CommunityKit is written in C#, with the server portion running on .NET Core 2.0 (hosted in Ubuntu), and the client running on the FNA Framework in Windows and Mac.</p>
+        <p>I have been working on CommunityKit for six and a half months.</p>
+        <ul>
+          <li>The CommunityKit Server/Client is 85,700 lines of code.</li>
+          <li>The Server-specific codebase is approximately 46% of the code.</li>
+          <li>The Client-specific codebase is approximately 44% of the code.</li>
+          <li>The Client and Server share an additional codebase of 8,500 lines of code.</li>
+        </ul>
+        <hr/>
       </div>
     </div>
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
