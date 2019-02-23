@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/theme.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway|Work+Sans:400,700" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -16,7 +17,7 @@
       <div class="twelve columns" style="margin-top: 5%">
         <center>
           <img src="images/volcano.png"/>
-          <h1><b>MedievaLands</b></h1>
+          <h1>MedievaLands</h1>
           <p>A from-scratch recreation of The Shadow of Yserbius!</p>
         </center>
       </div>
@@ -24,28 +25,60 @@
     <div class="row">
       <div class="twelve column">
         <h2>Welcome!</h2>
-        <p>This site is a dev blog centered around remaking The Shadow of Yserbius. I'm very close to a public release, and plan more projects in the future.</p>
+		<p>This site is a dev blog for a fan-made cross-platform copy of Shadow of Yserbius. Released in 1993, Yserbius was one of the first online graphical RPGs. Up to 60 people at a time could meet up, create adventuring parties, and delve deep into monster-filled dunegons. When you were done adventuring, you could venture off with your friends to play other games on the Imagination Network, which modestly described itself as "the friendlest place in cyberspace".</p>
+        <p>I have very fond memories of Yserbius and the Imagination Network. This is my attempt to recreate that kind of experience: the ability to create a persona, to play fun games with other people, and to be a part of a community that is welcoming and affirmative.</p>
         <blockquote>
-          <p><strong>IMPORTANT!</strong> I don't have the rights to The Shadow of Yserbius. This is <strong>not</strong> an official release, just a closed-source hobby project.</p>
+          <p><strong>IMPORTANT!</strong> This is <strong>not</strong> an official release, just a closed-source hobby project. I do not have the permission of the rights holders or owners of Shadow of Yserbius.</p>
         </blockquote>
-        <h2>Road Map</h2>
+		<h2>Downloads</h2>
+		<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th>Platform</th>
+			  <th>Size</th>
+			  <th>Notes</th>
+			  <th>Download</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Windows</td>
+			  <td>1.4mb</td>
+			  <td>If you have difficulty running the program, try <a href="https://www.microsoft.com/en-us/download/details.aspx?id=17851">installing the .NET 4.0 Framework</a>. Also, this is an unsigned application. You may have to approve running the program by clicking on a 'more information' button.</td>
+			  <td><a class="button button-primary" href="patch/CommunityClientWin.zip">Download</a></td>
+			</tr>
+			<tr>
+			  <td>MacOS</td>
+			  <td>8.0mb</td>
+			  <td>This is an unsigned application. You must right click the application and select "Open" to run.</td>
+			  <td><a class="button button-primary" href="patch/CommunityClientMac.tar.gz">Download</a></td>
+			</tr>
+		  </tbody>
+		</table>
+        <h2>Application Information</h2>
+		  <p>When you run the program for the first time, it will copy itself to your Documents directory under /Games/CommunityKit. It does this so it can update itself in a known location.</p>
+		  <p>Each time the program runs, it first checks if the program files have been updated, and then checks if any resource files must be updated. Resource files can be large (the music files are approximately 20mb), but they only need to be downloaded once.</p>
+		  <p>I will do my best to make sure that the program can patch itself, but it may be necessary, during the first few months of operation, to issue 'breaking' patches, which will require you to download the client from this website again.</p>
+		  <p>I'm looking forward to seeing you on-line!</p>
+        <h2>Development Road Map</h2>
         <ul>
-          <li>Feature Complete: Dungeon (January 1, 2019), Tavern (January 15, 2019).</li>
-          <li>Breaking bug fixes and assets expected complete February 15, 2019.</li>
+          <li>Dungeon and Tavern feature complete: January 15, 2019.</li>
+          <li>Assets added and breaking bugs fixed: February 15, 2019.</li>
           <li>Additional polish and closed testing expected through mid-March 2019.</li>
           <li>Public release expected mid-March 2019.</li>
           <li>Hypercare and stabilization after launch expected to end May 2019.</li>
         </ul>
-        <h2>Development Facts</h2>
-        <p>This recreation runs on an engine I wrote called "CommunityKit". CommunityKit is written in C#, with the server portion running on .NET Core 2.0 (hosted in Ubuntu), and the client running on the FNA Framework in Windows and Mac.</p>
+        <h2>Programming Facts</h2>
+        <p>This recreation runs on an homemade engine called "CommunityKit". CommunityKit is written in C#, with the server running on .NET Core 2.0 (hosted in Ubuntu), and the client running on the FNA Framework on Windows and Mac.</p>
         <p>I have been working on CommunityKit for six and a half months.</p>
         <ul>
-          <li>The CommunityKit Server/Client is 85,700 lines of code.</li>
-          <li>The Server-specific codebase is approximately 46% of the code.</li>
-          <li>The Client-specific codebase is approximately 44% of the code.</li>
+          <li>The CommunityKit Server/Client is approximately 85,700 lines of code.</li>
+          <li>The Server-specific codebase makes up 46% of the code.</li>
+          <li>The Client-specific codebase makes up 44% of the code.</li>
           <li>The Client and Server share an additional codebase of 8,500 lines of code.</li>
         </ul>
         <hr/>
+		<center><p>Made with love in MPLS.</p></center>
       </div>
     </div>
   </div>
