@@ -6,11 +6,13 @@ h1 {
 }
 h2 {
  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 3.5rem;
 }
 h3, h4, h5, h6 {
  font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 3rem;
 }
 blockquote {
   margin: 1em auto;
@@ -23,4 +25,8 @@ blockquote {
 }
 blockquote p {
   margin: 0em;
+}
+.button.button-primary {
+  background-color: #1f7590;
+  width: 100%;
 }
