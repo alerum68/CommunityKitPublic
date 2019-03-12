@@ -28,5 +28,6 @@ blockquote p {
 }
 .button.button-primary {
   background-color: #1f7590;
+  border-color: #134b5c;
   width: 100%;
 }
