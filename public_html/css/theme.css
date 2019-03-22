@@ -27,7 +27,15 @@ blockquote p {
   margin: 0em;
 }
 .button.button-primary {
-  background-color: #1f7590;
-  border-color: #134b5c;
   width: 100%;
+  background-color: #26719f;
+  background-image: linear-gradient(-180deg,#2f8fcb,#26719f 90%);
+  background-position: -.5em;
+  border-color: rgba(17, 14, 94, 0.5);
+}
+.button.button-primary:hover {
+  background-color: #205f85;
+  background-image: linear-gradient(-180deg,#2572a2,#205f85 90%);
+  background-position: -.5em;
+  border-color: rgba(8, 7, 32, 0.75);
 }
